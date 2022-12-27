@@ -1,1 +1,2 @@
-require("mondo192")
+require("mondo192");
+print("Hello");
