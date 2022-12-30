@@ -1,2 +1,1 @@
-require("mondo192.remap")
-print("Hello from mondo192")
+require("mondo192.packer");
