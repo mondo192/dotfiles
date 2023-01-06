@@ -1,37 +1,38 @@
-local set = vim.opt
 
 -- line numbers
-set.relativenumber = true
-set.number = true
+vim.opt.relativenumber = true
+vim.opt.number = true
 
 -- tabs and indents
-set.tabstop = 4
-set.shiftwidth = 4
-set.expandtab = true
-set.autoindent = true
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
+vim.opt.expandtab = true
+vim.opt.autoindent = true
 
 -- line wrapping
-set.wrap = false
+vim.opt.wrap = false
 
--- search settings
-set.ignorecase = true
-set.smartcase = true
+-- search options 
+vim.opt.ignorecase = true
+vim.opt.smartcase = true
 
 -- cursor line
-set.cursorline = true
+vim.opt.cursorline = true
 
 -- appearance
-set.termguicolors = true
-set.background = "dark"
-set.signcolumn = "yes"
+vim.opt.termguicolors = true
+vim.opt.background = "dark"
+vim.opt.signcolumn = "yes"
 
 -- backspace
-set.backspace = "indent,eol,start"
+vim.opt.backspace = "indent,eol,start"
 
 -- yank to system clipboard
-set.clipboard:append("unnamedplus")
+vim.opt.clipboard:append("unnamedplus")
 
 -- split windows
-set.splitright = true
-set.splitbelow = true
+vim.opt.splitright = true
+vim.opt.splitbelow = true
 
+
+vim.g.mapleader = " "
