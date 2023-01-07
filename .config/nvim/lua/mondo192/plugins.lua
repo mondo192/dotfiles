@@ -55,6 +55,16 @@ return require("packer").startup(function(use)
         requires = { {"nvim-lua/plenary.nvim"} }
     }
 
+    use({
+        "rose-pine/neovim",
+        as = "rose-pine",
+        config = function()
+            vim.cmd("colorscheme rose-pine")
+        end
+    })
+
+    use "ThePrimeagen/harpoon"
+
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins
     if packer_bootstrap then
