@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 require("nvim-treesitter.configs").setup{
+=======
+require"nvim-treesitter.configs".setup {
+>>>>>>> 315f0af3adc7c7811e5a4aae4695163b20187459
   -- A list of parser names, or "all"
   ensure_installed = "all", 
 

@@ -79,16 +79,20 @@ _G.packer_plugins = {
     path = "/home/eamonn/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+<<<<<<< HEAD
   ["cmp-buffer"] = {
     loaded = true,
     path = "/home/eamonn/.local/share/nvim/site/pack/packer/start/cmp-buffer",
     url = "https://github.com/hrsh7th/cmp-buffer"
   },
+=======
+>>>>>>> 315f0af3adc7c7811e5a4aae4695163b20187459
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "/home/eamonn/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
+<<<<<<< HEAD
   ["cmp-nvim-lua"] = {
     loaded = true,
     path = "/home/eamonn/.local/share/nvim/site/pack/packer/start/cmp-nvim-lua",
@@ -99,6 +103,8 @@ _G.packer_plugins = {
     path = "/home/eamonn/.local/share/nvim/site/pack/packer/start/cmp-path",
     url = "https://github.com/hrsh7th/cmp-path"
   },
+=======
+>>>>>>> 315f0af3adc7c7811e5a4aae4695163b20187459
   cmp_luasnip = {
     loaded = true,
     path = "/home/eamonn/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
@@ -109,11 +115,14 @@ _G.packer_plugins = {
     path = "/home/eamonn/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
+<<<<<<< HEAD
   ["lsp-zero.nvim"] = {
     loaded = true,
     path = "/home/eamonn/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
     url = "https://github.com/VonHeikemen/lsp-zero.nvim"
   },
+=======
+>>>>>>> 315f0af3adc7c7811e5a4aae4695163b20187459
   ["mason-lspconfig.nvim"] = {
     loaded = true,
     path = "/home/eamonn/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
