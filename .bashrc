@@ -124,12 +124,8 @@ export PATH=$PATH:$HOME/go/bin
 source <(kubectl completion bash)
 alias k=kubectl
 
-<<<<<<< HEAD
 alias config='/usr/bin/git --git-dir=/home/"$(whoami)"/code/personal/dotfiles --work-tree=/home/"$(whoami)"'
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-=======
-alias config='/usr/bin/git --git-dir=/home/"$(whoami)"/code/dotfiles --work-tree=/home/"$(whoami)"'
->>>>>>> 315f0af3adc7c7811e5a4aae4695163b20187459
