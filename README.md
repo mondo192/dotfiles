@@ -17,7 +17,11 @@ git clone --bare <URI> dotfiles
 ## Setup config alias
 
 ```sh
-echo "alias config='/usr/bin/git --git-dir=$HOME/code/personal/dotfiles --work-tree=$HOME'" >> ~/.bashrc
+echo "alias config='/usr/bin/git --git-dir=$HOME/code/personal/dotfiles --work-tree=$HOME'" >> ~/.profile
+```
+
+```sh
+source ~/.profile
 ```
 
 ## Disable file tracking
