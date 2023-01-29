@@ -44,3 +44,5 @@ For example:
 ```sh
 config switch personal
 ```
+
+More information checkout [this](https://www.atlassian.com/git/tutorials/dotfiles) article on atlassian.
