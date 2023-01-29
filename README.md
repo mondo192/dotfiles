@@ -40,6 +40,7 @@ That way we can bring our custom environment configuration by cloning this repos
 
 For example:
 
+### Personal workstation
 ```sh
 config switch personal
 ```
