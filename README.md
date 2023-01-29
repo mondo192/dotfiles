@@ -17,7 +17,7 @@ git clone --bare <URI> dotfiles
 ## Setup config alias
 
 ```sh
-echo "alias config='/usr/bin/git --git-dir=$HOME/code/personal/dotfiles --work-tree=$HOME'" >> ~/.profile
+echo "alias config='/usr/bin/git --git-dir=$HOME/<dotfile-directory> --work-tree=$HOME'" >> ~/.profile
 ```
 
 ```sh
@@ -33,13 +33,13 @@ config config --local status.showUntrackedFiles no
 ## Basic usage
 
 Genrally speaking the new `config` command is identical to `git` command. 
+
 We can add any file we want to our dotfiles and create new branches for each machine we have. 
-So, that way we can bring our custom environment configuration by cloning this repository.
+
+That way we can bring our custom environment configuration by cloning this repository and switching to the relevant branch for the machine we are on.
 
 For example:
 
 ```sh
-config add <some-file-or-directory>
-config commit -m "commit message"
-config push
+config switch personal
 ```
