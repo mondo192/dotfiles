@@ -13,6 +13,13 @@ if [ -n "$BASH_VERSION" ]; then
 		. "$HOME/.bashrc"
 	fi
 fi
+# if runnning zsh
+if [ -n "$ZSH_VERSION" ]; then
+	# include .zshrc if it exists
+	if [ -f "$HOME/.zshrc" ]; then
+		. "$HOME/.zshrc"
+	fi
+fi
 # set PATH so it includes user's private bin if it exists
 if [ -d "$HOME/bin" ] ; then
 	PATH="$HOME/bin:$PATH"
